@@ -1,20 +1,17 @@
 import './App.css';
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './components/home/Home';
-import Header from './components/header/Header';
-import SearchBar from './components/Search/SearchBar';
+import Rockets from './components/Rockets/Rockets';
+import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 
-const App = (params) => {
-  
-return (
-  <div className="containerApp">
-    <Header />
-    <Home />
+const App = () => (
+  <div className="spaceApp">
+    <Navbar />
     <Routes>
-      <Route exact path="/" element={<SearchBar />} />
-      </Routes>
-    
-    </div>
-)
-}
+      <Route path="/" element={<Rockets />} />
+      <Route path="profile" element={<Profile />} />
+    </Routes>
+  </div>
+);
+
+export default App;
