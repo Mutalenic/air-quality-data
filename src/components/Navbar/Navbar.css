@@ -1,4 +1,4 @@
-.contanier {
+.navbarContainer {
   padding: 10px;
   font-weight: bold;
   width: 100%;
@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.left_side {
+.LeftIcon {
   display: flex;
   align-items: center;
 }
@@ -18,7 +18,7 @@
   color: #fff;
 }
 
-.right_side {
+.rightIcons {
   display: flex;
   gap: 20px;
   align-items: center;
