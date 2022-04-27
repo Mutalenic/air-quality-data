@@ -1,9 +1,13 @@
+import React from 'react';
+import './Home.css';
+import worldmap from '../../img/worldmap.jpg';
+
 const Home = () => (
   <>
-    <h1>Falcon 1</h1>
-    <p>
-      Countries
-    </p>
+    <div>
+      <img src={worldmap} alt="world map" className="map" />
+    </div>
+    <h1>Countries</h1>
     <form>
       <select>
         <option value="Africa" defaultValue>
