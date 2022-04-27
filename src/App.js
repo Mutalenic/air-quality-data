@@ -5,19 +5,19 @@ import { useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 import Home from './components/Home/Home';
-import { addTowns } from './redux/Town/town';
+import { getCountries } from './redux/Country/countries';
 
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(addTowns());
+    dispatch(getCountries());
   }, []);
 
   return (
     <div className="spaceApp">
       <Navbar />
+      <Home />
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="profile" element={<Profile />} />
       </Routes>
     </div>
