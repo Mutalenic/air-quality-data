@@ -41,6 +41,7 @@ const countriesReducer = (state = initialState, action) => {
         country: [],
         error: action.payload,
       };
+
     default:
       return { ...state };
   }

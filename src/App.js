@@ -3,9 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
-import Profile from './components/Profile/Profile';
 import Home from './components/Home/Home';
 import { getCountries } from './redux/Country/countries';
+import TownDetails from './components/Details/Details';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -18,7 +18,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Routes>
-        <Route path="profile" element={<Profile />} />
+        <Route path="profile" element={<TownDetails />} />
       </Routes>
     </div>
   );

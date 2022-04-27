@@ -6,7 +6,7 @@ import { airPollutionReducer } from './Town/town';
 import countriesReducer from './Country/countries';
 
 const rootReducer = combineReducers({
-  countriesReducer,
+  country_name: countriesReducer,
   airPollutionReducer,
 });
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk, logger)));

@@ -5,7 +5,7 @@ import './Home.css';
 import worldmap from '../../img/worldmap.jpg';
 
 const Home = () => {
-  const [region, setRegion] = useState('Europe');
+  const [region, setRegion] = useState('Africa');
   const dispatch = useDispatch();
   const handler = (e) => {
     e.preventDefault();
@@ -28,6 +28,7 @@ const Home = () => {
           countries
           {' '}
         </span>
+
         <form onSubmit={(e) => handler(e)}>
           <select name="selected">
             <option value="Africa" defaultValue>
@@ -43,6 +44,11 @@ const Home = () => {
           <button type="submit">Search Region</button>
         </form>
       </div>
+      <ul>
+
+        {country.map((place) => place.map((home) => <li key={`${home.latlag[0]}${home.latlag[1]}`}>{home.name}</li>))}
+      </ul>
+
     </div>
   );
 };
