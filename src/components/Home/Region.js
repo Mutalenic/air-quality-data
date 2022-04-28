@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Navbar/Navbar';
-import Region from '../Detailspage/Region';
-import World from '../../Design/World_map.png';
+import Region from '../Details/Region';
+import World from '../Maps/img/worldmap.jpg';
 
 const Regions = () => {
   const regionList = [

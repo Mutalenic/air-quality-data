@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { getPollutionData } from '../../Redux/Actions/Pollution';
+import { getPollutionData } from '../../redux/Actions/Pollution';
 
 const Country = (props) => {
   const {

@@ -28,7 +28,7 @@ const Navbar = (props) => {
     </div>
   );
 };
-Header.propTypes = {
+Navbar.propTypes = {
   id: PropTypes.string.isRequired,
 };
 
