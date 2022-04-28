@@ -1,6 +1,6 @@
 import { getPollutionInfor } from "../apiFunctions";
 
-const ADD_POLLUTION = 'air-quality-data/Pollution/ADD_POLLUTION';
+export const ADD_POLLUTION = 'air-quality-data/Pollution/ADD_POLLUTION';
 
 
 export const addPollution = (payload) => ({
