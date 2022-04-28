@@ -5,7 +5,7 @@ import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Africa from '../Maps/Africa.png';
-import Antarctic from '../Maps/Antarctic.png';
+import Antarctic from '../Maps/Antarctica.png';
 import Asia from '../Maps/Asia.png';
 import Europe from '../Maps/Europe.png';
 import America from '../Maps/America.png';

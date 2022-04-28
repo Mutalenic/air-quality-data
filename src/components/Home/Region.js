@@ -17,7 +17,7 @@ const Regions = () => {
       <div className="world-container">
         <img src={World} alt="" className="world-map" />
         <div className="centered">
-          <h3>Get Air Quality Data Where You Live.</h3>
+          <h3>Find Air Quality Data in your Location.</h3>
           <h5> Central Reporting Area.</h5>
         </div>
       </div>

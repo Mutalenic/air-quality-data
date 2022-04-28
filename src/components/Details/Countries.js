@@ -1,26 +1,20 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRefresh } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import Africa from '../Maps/Africa.png';
-import Antarctic from '../Maps/Antarctic.png';
+import Antarctic from '../Maps/Antarctica.png';
 import Asia from '../Maps/Asia.png';
 import Europe from '../Maps/Europe.png';
 import Oceania from '../Maps/Oceania.png';
 import Navbar from '../Navbar/Navbar';
 import America from '../Maps/America.png';
 import Country from '../Home/Country';
-import { getCountries } from '../../redux/Actions/Countries';
+import './Countries.css';
 
 const Countries = () => {
   const countries = useSelector((state) => state.countriesReducer);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getCountries());
-  }, []);
-
   if (!countries.length) {
     return (
       <div className="m-2">
@@ -42,7 +36,7 @@ const Countries = () => {
   return (
     <div>
       <Navbar id="/" />
-      <div className="row m-4">
+      <div className="countryCountainer">
         <div className="col-12 d-flex justify-content-center align-items-center border gap-4">
           <h3>{countries[0].region}</h3>
           <img src={region1} alt="" className="m-2 img1" />

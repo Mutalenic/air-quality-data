@@ -19,7 +19,7 @@ const Navbar = (props) => {
               <FontAwesomeIcon icon={faHome} className="icon" />
             </NavLink>
           </button>
-          <h1 className="header">AirNow</h1>
+          <h1 className="header">Air Quality</h1>
           <NavLink to="/" className="link text-light">
             <FontAwesomeIcon icon={faRefresh} className="icon" text="reload" />
           </NavLink>
