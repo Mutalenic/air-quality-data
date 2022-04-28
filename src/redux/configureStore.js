@@ -2,12 +2,13 @@ import { legacy_createStore as createStore, combineReducers, applyMiddleware } f
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
-import { airPollutionReducer } from './Town/town';
-import countriesReducer from './Country/countries';
+import countriesReducer from './Reducers/Countries';
+import pollutionReducer from './Reducers/Pollution';
 
 const rootReducer = combineReducers({
-  country_name: countriesReducer,
-  airPollutionReducer,
+  countriesReducer,
+  pollutionReducer,
+  
 });
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk, logger)));
 
