@@ -8,7 +8,7 @@ import pollutionReducer from './Reducers/Pollution';
 const rootReducer = combineReducers({
   countriesReducer,
   pollutionReducer,
-  
+
 });
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk, logger)));
 

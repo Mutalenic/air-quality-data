@@ -1,7 +1,6 @@
-import { fetchCountries } from "../apiFunctions";
+import { fetchCountries } from '../apiFunctions';
 
 export const ADD_COUNTRIES = 'air-quality-data/Countries/ADD_COUNTRIES';
-
 
 export const addCountries = (payload) => ({
   type: ADD_COUNTRIES,
@@ -22,4 +21,3 @@ export const getCountries = (reg) => async (dispatch) => {
     })),
   });
 };
-
