@@ -11,6 +11,7 @@ import Europe from '../Maps/Europe.png';
 import America from '../Maps/America.png';
 import Oceania from '../Maps/Oceania.png';
 import { getCountries } from '../../redux/Actions/Countries';
+import './Region.css';
 
 const Region = (props) => {
   const { region, regionCountry } = props;
@@ -23,12 +24,25 @@ const Region = (props) => {
   else if (region === 'America') region1 = America;
   else region1 = Antarctic;
   return (
-    <div className="col-6 col-lg-4 col-md-4 border">
+    <div className="col-6 col-lg-4 col-md-4 regionBorder">
       <div className="region d-flex justify-content-between">
         <div className="d-flex flex-column">
           <img src={region1} alt="" className="m-2 img" />
-          <div className="region-details">
-            <p className="name">
+          <div className="regionDetails">
+            <button
+              key={region}
+              type="button"
+              className="btn mt-2"
+              onClick={() => {
+                dispatch(getCountries(region));
+              }}
+              to="/countries"
+            >
+              <NavLink to="/countries" className="link m-2 text-light">
+                <FontAwesomeIcon icon={faCircleArrowRight} className="icon" />
+              </NavLink>
+            </button>
+            <p className="regionName">
               {region}
             </p>
             <p>
@@ -38,21 +52,7 @@ const Region = (props) => {
             </p>
           </div>
         </div>
-        <div>
-          <button
-            key={region}
-            type="button"
-            className="btn mt-2"
-            onClick={() => {
-              dispatch(getCountries(region));
-            }}
-            to="/countries"
-          >
-            <NavLink to="/countries" className="link m-2 text-light">
-              <FontAwesomeIcon icon={faCircleArrowRight} className="icon" />
-            </NavLink>
-          </button>
-        </div>
+        <div />
       </div>
     </div>
   );

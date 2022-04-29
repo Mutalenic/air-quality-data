@@ -1,0 +1,22 @@
+.flagContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    align-items: center;
+ }
+
+ .Flagname {
+     padding: 0 1%;
+ }
+
+ .flagButton {
+    padding: 1%;
+    border-radius: 63%;
+ }
+ .link {
+     font-size: 1%;
+ }
+
+ .populationTotal {
+     padding: 0 1%;
+ }

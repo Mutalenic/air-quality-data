@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { getPollutionData } from '../../redux/Actions/Pollution';
+import './Country.css';
 
 const Country = (props) => {
   const {
@@ -13,26 +14,23 @@ const Country = (props) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="col-lg-3 col-md-4 col-6 col-6 border">
+    <div className="mainContainer">
       <div className="d-flex justify-content-between">
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column flagContainer">
           <img src={flag} alt="flag" className="m-2 img" />
-          <div className="country-details">
-            <p className="name">
-              {name}
-            </p>
-            <p>
-              Population:
-              {' '}
-              {population}
-            </p>
-          </div>
-        </div>
-        <div>
+          <p className="Flagname">
+            {name}
+          </p>
+          <p className="populationTotal">
+            Population:
+            {' '}
+            {population}
+          </p>
+
           <button
             key={id}
             type="button"
-            className="btn mt-2 float-right"
+            className="btn mt-2 flagButton"
             onClick={() => {
               dispatch(getPollutionData(parseInt(lat, 10), parseInt(lng, 10), flag, name));
             }}

@@ -1,0 +1,22 @@
+.regionDetails {
+display: flex;
+flex-direction: column;
+gap: 1%;
+}
+
+.regionName {
+    padding-top: 26%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 0 12px 0 0 1%;
+    /* background-color: rgb(60, 99, 170); */
+    border: none;
+    margin-left: 76%;
+}
+
+.regionBorder {
+    padding: 1%;
+}

@@ -14,11 +14,11 @@ const Regions = () => {
   return (
     <div>
       <Header id="/" />
+      .
       <div className="world-container">
         <img src={World} alt="" className="world-map" />
         <div className="centered">
           <h3>Find Air Quality Data in your Location.</h3>
-          <h5> Central Reporting Area.</h5>
         </div>
       </div>
       <div className="row m-4">
