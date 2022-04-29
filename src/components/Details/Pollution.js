@@ -6,24 +6,24 @@ const Pollution = (props) => {
     co, no, no2, flag, name, lat, lng,
   } = props;
   return (
-    <div className="pollution m-5">
-      <h3 className="text-white m-2">{name}</h3>
+    <div className="pollution">
+      <h3 className="airPollutionTest">{name}</h3>
       <div className="m-2">
-        <img src={flag} alt="flag" className="w-25" />
+        <img src={flag} alt="flag" />
       </div>
-      <p className="m-2 text-warning">
+      <p className="text-warning">
         Air pollution ( μg/m3 ) stats - 2022:
       </p>
       <table className="table">
         <thead>
-          <tr className="table-light">
-            <th scope="col">gas</th>
-            <th scope="col">μg/m3</th>
+          <tr>
+            <th>gas</th>
+            <th>μg/m3</th>
           </tr>
         </thead>
         <tbody>
-          <tr className="table-secondary">
-            <th scope="row">CO</th>
+          <tr>
+            <th>CO</th>
             <td>{co}</td>
           </tr>
           <tr className="table-danger">
@@ -31,7 +31,7 @@ const Pollution = (props) => {
             <td>{no}</td>
           </tr>
           <tr className="table-warning">
-            <th scope="row">NO2</th>
+            <th>NO2</th>
             <td>{no2}</td>
           </tr>
           <tr className="table-info">

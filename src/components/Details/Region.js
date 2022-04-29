@@ -24,9 +24,9 @@ const Region = (props) => {
   else if (region === 'America') region1 = America;
   else region1 = Antarctic;
   return (
-    <div className="col-6 col-lg-4 col-md-4 regionBorder">
-      <div className="region d-flex justify-content-between">
-        <div className="d-flex flex-column">
+    <div className="regionBorder">
+      <div className="region">
+        <div className="flex-column">
           <img src={region1} alt="" className="m-2 img" />
           <div className="regionDetails">
             <button

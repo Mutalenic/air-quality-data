@@ -15,8 +15,8 @@ const Country = (props) => {
 
   return (
     <div className="mainContainer">
-      <div className="d-flex justify-content-between">
-        <div className="d-flex flex-column flagContainer">
+      <div>
+        <div className="flex-column flagContainer">
           <img src={flag} alt="flag" className="m-2 img" />
           <p className="Flagname">
             {name}
@@ -30,12 +30,12 @@ const Country = (props) => {
           <button
             key={id}
             type="button"
-            className="btn mt-2 flagButton"
+            className="flagButton"
             onClick={() => {
               dispatch(getPollutionData(parseInt(lat, 10), parseInt(lng, 10), flag, name));
             }}
           >
-            <NavLink to="/pollution" className="link m-2 text-light">
+            <NavLink to="/pollution">
               <FontAwesomeIcon icon={faCircleArrowRight} className="icon" />
             </NavLink>
           </button>

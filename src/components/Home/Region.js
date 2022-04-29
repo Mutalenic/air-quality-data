@@ -21,7 +21,7 @@ const Regions = () => {
           <h3>Find Air Quality Data in your Location.</h3>
         </div>
       </div>
-      <div className="row m-4">
+      <div className="row">
         {
             regionList.map((element) => (
               <Region
