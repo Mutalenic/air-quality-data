@@ -1,17 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Track air pollution app
+# Space Travelers' Hub
 
-> This is an app for tracking air pollution in a country and showing a chart of how dense the air pollution is
+In this project, we worked with the real live data from the SpaceX API. We managed to build a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets, dragons, and to join selected space missions. All activities are recorded and displayed in the Profile section.
+The screenshots below give a glimpse of the beautiful UI. To access the web application, click the link in the `live demo` section.
+Support us with a star if you like the project, and feel free to contribute or offer any insight.
 
-<br> <br>
+## Screenshots
+![Rockets](src/img/rockets.png)
+![Missions](src/img/missions.png)
+![Dragons](src/img/dragons.png)
+![Profile](src/img/profile.png)
 
 ## Built With
 
 - React
-- Babel
+- Redux
+- JavaScript
+- Jest
+- Webpack
 
-## Live Demo (Not avialiable yet)
+## Live Demo
+
+[This is the link](https://6262b54ee8f3d52d5200c258--tiny-bavarois-1b6015.netlify.app/) to the deployed web application.
 
 ## Getting Started
 
@@ -19,17 +30,31 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-> You will need to have git and installed in your machine
+You need nodejs and npm installed on your machine. If so, continue with the next steps.
 
+### Setup
 
-### Install <br>
+Install dependencies by running:
 
-> To install all dependencies Run `npm install`
+`npm install`
 
-### Deployment <br>
+### Usage
 
-> Run`npm start`(to enable webpack live server) <br>
-> Run`npm build` (to build production folder (dist) )
+Run live server by the following command:
+
+`npm start`
+
+### Run tests
+
+`npm test`
+
+### Deployment
+
+To deploy this project run the following command:
+
+`npm build`
+
+and copy the content of `build` directory to the root folder of your production environment.
 
 ## Authors
 
@@ -39,11 +64,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@bonke_gcobo](https://twitter.com/nicomutale)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/nicomutale)
 
-## 🤝 Contribute
+
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Mutalenic/air-quality-data.git/issues)
 
 ## Show your support
 
@@ -51,9 +76,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- Linters configuration are made by Microverse
+- The logo has been taken from flaticon.com.
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+## LICENSE
+This project is MIT licensed.

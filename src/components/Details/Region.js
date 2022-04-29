@@ -32,13 +32,13 @@ const Region = (props) => {
             <button
               key={region}
               type="button"
-              className="btn mt-2"
+              className="regionBtn"
               onClick={() => {
                 dispatch(getCountries(region));
               }}
               to="/countries"
             >
-              <NavLink to="/countries" className="link m-2 text-light">
+              <NavLink to="/countries" className="buttonLink">
                 <FontAwesomeIcon icon={faCircleArrowRight} className="icon" />
               </NavLink>
             </button>
