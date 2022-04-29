@@ -36,6 +36,7 @@ body {
 
 .flex-column{
   display: flex;
+  padding-top: 10%;
 }
 
 .icon {
@@ -59,7 +60,7 @@ body {
 }
 
 .world-map {
-  width: 80%;
+  width: 60%;
   opacity: 0.3;
 }
 
