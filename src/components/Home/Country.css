@@ -12,6 +12,8 @@
  .flagButton {
     padding: 1%;
     border-radius: 63%;
+    background-color: rgb(60, 99, 170);
+    border: none;
  }
  .link {
      font-size: 1%;

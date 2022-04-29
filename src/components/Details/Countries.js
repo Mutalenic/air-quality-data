@@ -37,9 +37,9 @@ const Countries = () => {
     <div>
       <Navbar id="/" />
       <div className="countryCountainer">
-        <div className="col-12 d-flex justify-content-center align-items-center border gap-4">
+        <div>
           <h3>{countries[0].region}</h3>
-          <img src={region1} alt="" className="m-2 img1" />
+          <img src={region1} alt="" className="img1" />
         </div>
         {
           countries.map((country) => (
