@@ -18,8 +18,8 @@ const Countries = () => {
   if (!countries.length) {
     return (
       <div className="m-2">
-        <p>Loading</p>
-        <NavLink to="/" className="link text-light">
+        <p>Loading please wait!</p>
+        <NavLink to="/" className="reloadText">
           <p>Click to reload</p>
           <FontAwesomeIcon icon={faRefresh} className="icon" text="reload" />
         </NavLink>
