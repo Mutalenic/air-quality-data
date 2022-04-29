@@ -20,3 +20,9 @@
  .populationTotal {
      padding: 0 1%;
  }
+
+ .mainContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
