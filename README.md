@@ -1,28 +1,30 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Travelers' Hub
+# React capstone project - Metrics webapp
 
-In this project, we worked with the real live data from the SpaceX API. We managed to build a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets, dragons, and to join selected space missions. All activities are recorded and displayed in the Profile section.
-The screenshots below give a glimpse of the beautiful UI. To access the web application, click the link in the `live demo` section.
-Support us with a star if you like the project, and feel free to contribute or offer any insight.
+In this React capstone project I built a mobile web application to check a list of metrics (numeric values) that a I created making use of React and Redux.
 
-## Screenshots
-![Rockets](src/img/rockets.png)
-![Missions](src/img/missions.png)
-![Dragons](src/img/dragons.png)
-![Profile](src/img/profile.png)
+I selected an API that provides numeric data about Air Pollution across the globe and then built the webapp around it. ![screenshoot](./src/images/countries.png) ![screenshoot2](./src/images/homepage.png)
 
 ## Built With
-
-- React
+- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 - Redux
-- JavaScript
-- Jest
-- Webpack
+- GitFlow.
+- NPM.
 
 ## Live Demo
 
 [This is the link](https://6262b54ee8f3d52d5200c258--tiny-bavarois-1b6015.netlify.app/) to the deployed web application.
+
+
+### Prerequisites
+The basic requirements for building the executable are:
+
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
 ## Getting Started
 
