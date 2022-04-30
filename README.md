@@ -16,7 +16,7 @@ I selected an API that provides numeric data about Air Pollution across the glob
 
 ## Live Demo
 
-[This is the link](https://6262b54ee8f3d52d5200c258--tiny-bavarois-1b6015.netlify.app/) to the deployed web application.
+[This is the link](https://626cdfa1459f1a418c99319c--stately-kashata-1db13f.netlify.app/) to the deployed web application.
 
 
 ### Prerequisites
@@ -79,7 +79,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Linters configuration are made by Microverse
-- The logo has been taken from flaticon.com.
+- Design is inspired from a design made by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 ## LICENSE
 This project is MIT licensed.
