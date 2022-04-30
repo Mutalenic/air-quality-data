@@ -6,6 +6,7 @@ body {
   text-align: center;
   color: white;
 }
+
 .region {
   border-color: black;
 }
@@ -23,18 +24,14 @@ body {
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 8%;  
+  padding-left: 8%;
 }
-
-
 
 .img:hover {
   width: 90%;
 }
 
-
-
-.flex-column{
+.flex-column {
   display: flex;
   padding-top: 10%;
 }
@@ -97,4 +94,3 @@ body {
     text-align: right !important;
   }
 }
-

@@ -1,38 +1,38 @@
 .flagContainer {
-    display: flex;
-    flex-direction: row;
-    padding: 1%;
-    align-items: center;
- }
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  align-items: center;
+}
 
- .Flagname {
-     padding: 0 1%;
- }
+.Flagname {
+  padding: 0 1%;
+}
 
- .flagButton {
-    padding: 1%;
-    border-radius: 63%;
-    background-color: rgb(60, 99, 170);
-    border: none;
- }
- .link {
-     font-size: 1%;
- }
+.flagButton {
+  padding: 1%;
+  border-radius: 63%;
+  background-color: rgb(60, 99, 170);
+  border: none;
+}
 
- .populationTotal {
-     padding: 0 1%;
- }
+.link {
+  font-size: 1%;
+}
 
- .mainContainer {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
- }
- @media only screen and (min-width: 600px) {
-    .mainContainer {
-      display: grid;
-      grid-template-columns: 5fr 1fr 1fr ;
-    }
+.populationTotal {
+  padding: 0 1%;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 600px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
   }
-
- 
+}
