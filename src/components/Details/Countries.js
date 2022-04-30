@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRefresh } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
@@ -15,6 +15,10 @@ import './Countries.css';
 
 const Countries = () => {
   const countries = useSelector((state) => state.countriesReducer);
+  const [search, setSearch] = useState('');
+  /* eslint-disable */
+  const searchedValue = countries.filter((country) => country.name.common.toLowerCase().includes(search.toLowerCase()));
+
   if (!countries.length) {
     return (
       <div className="m-2">
@@ -41,8 +45,11 @@ const Countries = () => {
           <h3>{countries[0].region}</h3>
           <img src={region1} alt="" className="img1" />
         </div>
+        <div>
+          <input type="text" placeholder="search country" className="searchCountry" onChange={(e) => setSearch(e.target.value)} />
+        </div>
         {
-          countries.map((country) => (
+          searchedValue.map((country) => (
             <Country
               key={country.code}
               id={country.code}
@@ -59,5 +66,4 @@ const Countries = () => {
     </div>
   );
 };
-
 export default Countries;
