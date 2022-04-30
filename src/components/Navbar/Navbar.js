@@ -8,14 +8,14 @@ import { faHome, faRefresh } from '@fortawesome/free-solid-svg-icons';
 const Navbar = (props) => {
   const { id } = props;
   return (
-    <div className="bg-pink-500 shadow-lg">
+    <div className="shadow-lg">
       <nav>
-        <div className="d-flex justify-content-between align-items-center p-3 mb-2">
+        <div className="navBarContainer">
           <button
             type="button"
-            className="btn mt-2"
+            className="btn"
           >
-            <NavLink to={id} className="link m-2 text-light">
+            <NavLink to={id} className="link text-light">
               <FontAwesomeIcon icon={faHome} className="icon" />
             </NavLink>
           </button>

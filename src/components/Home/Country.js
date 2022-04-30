@@ -15,7 +15,7 @@ const Country = (props) => {
 
   return (
     <div className="mainContainer">
-      <div>
+      <div className="mainFlagContainer">
         <div className="flex-column flagContainer">
           <img src={flag} alt="flag" className="m-2 img" />
           <p className="Flagname">
@@ -35,7 +35,7 @@ const Country = (props) => {
               dispatch(getPollutionData(parseInt(lat, 10), parseInt(lng, 10), flag, name));
             }}
           >
-            <NavLink to="/pollution">
+            <NavLink to="/pollution" className="link m-2 text-light">
               <FontAwesomeIcon icon={faCircleArrowRight} className="icon" />
             </NavLink>
           </button>
