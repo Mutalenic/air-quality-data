@@ -1,0 +1,96 @@
+body {
+  background: rgb(60, 99, 170) !important;
+}
+
+.app {
+  text-align: center;
+  color: white;
+}
+
+.region {
+  border-color: black;
+}
+
+.link:link {
+  text-decoration: none;
+  color: rgb(32 32 246);
+}
+
+.img {
+  width: 40%;
+  transition: width 1s;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 8%;
+}
+
+.img:hover {
+  width: 90%;
+}
+
+.flex-column {
+  display: flex;
+  padding-top: 10%;
+}
+
+.icon {
+  height: 6vh;
+}
+
+.img1 {
+  width: 50%;
+}
+
+.world-container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.world-map {
+  width: 60%;
+  opacity: 0.3;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 769px) {
+  .world-map {
+    width: 50%;
+    opacity: 0.3;
+  }
+
+  .img {
+    width: 60%;
+    transition: width 1s;
+    margin-bottom: 80px;
+  }
+
+  .img:hover {
+    width: 70%;
+  }
+
+  .img1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .country-details,
+  .region-details {
+    text-align: right !important;
+  }
+}
