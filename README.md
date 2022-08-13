@@ -16,7 +16,7 @@ I selected an API that provides numeric data about Air Pollution across the glob
 
 ## Live Demo
 
-[This is the link](https://626cdfa1459f1a418c99319c--stately-kashata-1db13f.netlify.app/) to the deployed web application.
+[This is the link](https://deploy-preview-2--stately-kashata-1db13f.netlify.app/) to the deployed web application.
 
 ## Video 
 [Video Presentation](https://www.loom.com/share/b17aad1fdccf432692c0ad2576c8ffbd)
