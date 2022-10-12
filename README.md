@@ -4,7 +4,8 @@
 
 In this React capstone project I built a mobile web application to check a list of metrics (numeric values) that a I created making use of React and Redux.
 
-I selected an API that provides numeric data about Air Pollution across the globe and then built the webapp around it. ![screenshoot](./src/images/countries.png) ![screenshoot2](./src/images/homepage.png)
+I selected an API that provides numeric data about Air Pollution across the globe and then built the webapp around it.
+![screenshoot](./src/images/countries.png) ![screenshoot2](./src/images/homepage.png)
 
 ## Built With
 - React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
