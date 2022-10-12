@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import Header from '../Navbar/Navbar';
 import Pollution from '../Details/Pollution';
+import './Pollution.css';
 
 const Pollutions = () => {
   const pollutions = useSelector((state) => state.pollutionReducer);
