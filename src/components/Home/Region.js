@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Navbar/Navbar';
 import Region from '../Details/Region';
 import World from '../Maps/img/worldmap.jpg';
+import './Region.css';
 
 const Regions = () => {
   const regionList = [
@@ -14,11 +15,10 @@ const Regions = () => {
   return (
     <div>
       <Header id="/" />
-      .
       <div className="world-container">
-        <img src={World} alt="" className="world-map" />
+        <img src={World} alt="world map" className="world-map" />
         <div className="centered">
-          <h3>Find Air Quality Data in your Location.</h3>
+          <h3>Find Air Quality Data in your Location</h3>
         </div>
       </div>
       <div className="row">
