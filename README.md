@@ -2,9 +2,9 @@
 
 # React capstone project - Metrics webapp
 
-In this React capstone project I built a mobile web application to check a list of metrics (numeric values) that a I created making use of React and Redux.
+In this React capstone project, I built a mobile web application to check a list of metrics (numeric values) that I created making use of React and Redux.
 
-I selected an API that provides numeric data about Air Pollution across the globe and then built the webapp around it.
+I selected an API that provides numeric data about Air Pollution across the globe and then built the web app around it.
 ![screenshoot](./src/images/countries.png) ![screenshoot2](./src/images/homepage.png)
 
 ## Built With
@@ -26,17 +26,17 @@ I selected an API that provides numeric data about Air Pollution across the glob
 ### Prerequisites
 The basic requirements for building the executable are:
 
-- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- A working browser application (Google Chrome, Mozilla Firefox, Microsoft Edge...)
 - VSCode or any other equivalent code editor
-- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
+- Node Package Manager (For installing packages like Lighthouse, webhint & stylelint used for checking for debugging bad codes before deployment)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+Follow these simple example steps.
 
 ### Prerequisites
 
-You need nodejs and npm installed on your machine. If so, continue with the next steps.
+You need node js and npm installed on your machine. If so, continue with the next steps.
 
 ### Setup
 
@@ -46,7 +46,7 @@ Install dependencies by running:
 
 ### Usage
 
-Run live server by the following command:
+Run the live server by the following command:
 
 `npm start`
 
@@ -60,15 +60,15 @@ To deploy this project run the following command:
 
 `npm build`
 
-and copy the content of `build` directory to the root folder of your production environment.
+and copy the content of the `build` directory to the root folder of your production environment.
 
 ## Authors
 
 👤 **Nicholas Mutale**
 
 - GitHub: [@Mutalenic](https://github.com/Mutalenic)
-- Twitter: [@bonke_gcobo](https://twitter.com/nicomutale)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/nicomutale)
+- Twitter: [@nicomutale](https://twitter.com/nicomutale)
+- LinkedIn: [@nicomutale](https://linkedin.com/in/nicomutale)
 
 
 ## 🤝 Contributing
@@ -82,8 +82,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Linters configuration are made by Microverse
-- Design is inspired from a design made by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+- Linters configurations are made by Microverse
+- Design is inspired by a design made by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 ## LICENSE
 This project is MIT licensed.
